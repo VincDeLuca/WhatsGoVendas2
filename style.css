@@ -98,3 +98,121 @@ p {
 .diferenciais .cardsSection .card img{
     max-width: 50px;
 }
+
+
+
+/*--------------------------Planos-----------------------------*/
+
+.planos{
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.planos .texts{
+    text-align: center;
+}
+
+.planos .cardsSection{
+    width: 100%;
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10%;
+}
+
+.planos .cardsSection .card{
+    max-width: 100%;
+    min-height: 350px;
+    height: fit-content;
+    background-color: #20202082;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 15px;
+    color: #fff;
+    padding: 30px;
+    gap: 2vh;
+    backdrop-filter: blur(10px);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+}
+
+.planos .cardsSection .card img{
+    max-width: 50px;
+    transform: .5s;
+}
+
+.planos .cardsSection .card a{
+    background-color: #fff;
+    padding: 15px;
+    width: 60%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.planos .cardsSection .card .cardHover{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+}
+
+.planos .cardsSection .card div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 0 10%;
+    gap: 20px;
+}
+
+.planos .cardsSection .card div img{
+    max-width: 40px;
+}
+
+/* .planos .cardsSection .card:hover .cardHover{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+
+
+
+
+
+.planos .cardsSection .card:hover{
+    min-height: 350px;
+    transition: .5s;
+}
+
+.planos .cardsSection .card:hover .cardLogo{
+    max-width: 40px;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+    transform: .5s;
+}
+
+.planos .cardsSection .card:hover h3{
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 12%);
+}
+
+.planos .cardsSection .card:hover p{
+    display: none;
+}
+
+.planos .cardsSection .card:hover div{
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+} */
+
