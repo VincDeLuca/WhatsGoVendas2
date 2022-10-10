@@ -1,0 +1,31 @@
+.container{
+    padding: var(--box-padding);
+    flex-direction: column;
+}
+
+.headline{
+    gap: 5vh;
+}
+
+.headline h1, .headline p{
+    text-align: center;
+}
+
+.headline h1{
+    font-size: 3rem;
+    color: var(--white_normal);
+}
+
+.headline h1 span{
+    color: var(--green);
+}
+
+.headline p{
+    font-size: 1.5rem;
+    color: var(--gray_7);
+}
+
+.headline img{
+    max-width: 70%;
+    border-radius: 30px;
+}
