@@ -1,31 +1,49 @@
-.container{
+.container {
     padding: var(--box-padding);
     flex-direction: column;
 }
 
-.headline{
+a {
+    text-decoration: none;
+}
+
+.headline {
     gap: 5vh;
 }
 
-.headline h1, .headline p{
+.headline h1,
+.headline p {
     text-align: center;
 }
 
-.headline h1{
+.headline h1 {
     font-size: 2.5rem;
     color: var(--white_normal);
 }
 
-.headline h1 span{
+.headline h1 span {
     color: var(--green);
 }
 
-.headline p{
+.headline p {
     font-size: 1rem;
     color: var(--gray_7);
 }
 
-.headline img{
+.headline img {
     max-width: 70%;
     border-radius: 30px;
+}
+
+.headline .mainCta {
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: blueviolet;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 5px #8a2be2;
+    -moz-box-shadow: 0px 0px 15px 5px #8a2be2;
+    box-shadow: 0px 0px 15px 5px #8a2be2;
 }
