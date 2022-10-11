@@ -334,6 +334,29 @@ p {
 }
 
 
+
+/*--------------------------ScrollTop-----------------------------*/
+
+.scrollTop {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    cursor: none;
+    transform: translateY(40px) scale(0);
+    transition: .3s;
+  }
+  
+  .scrollTop-active {
+    opacity: 1 !important;
+    cursor: pointer;
+    transform: translateY(0px) scale(1) !important;
+    transition: .3s;
+  }
+  
+
 /*--------------------------MOBILE-----------------------------*/
 
 @media (max-width: 1100px) {
