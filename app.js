@@ -1,3 +1,29 @@
+//Header
+
+// Header
+
+const barsContainer = document.querySelector(".bar")
+const nav = document.querySelector("nav")
+const header = document.querySelector("header")
+
+
+barsContainer.addEventListener('click', ()=>{
+    barsContainer.classList.toggle("activeBars")
+    nav.classList.toggle('activeNav')
+})
+
+window.onscroll = ()=>{
+    console.log(window.pageYOffset)
+    // if(window.scrollY >= 10){
+    //     header.style.position = "fixed"
+    // }else{
+    //     header.style.position = "relative"
+    // }
+}
+
+
+
+
 // Sessão FAQ
 
 const quests = document.querySelectorAll('.quest')

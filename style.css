@@ -27,7 +27,7 @@ p {
     color: #fff;
     cursor: pointer;
     background-color: blueviolet;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: .5s;
     font-size: 24px;
     text-transform: uppercase;
@@ -40,6 +40,125 @@ p {
     box-shadow: 0px 0px 15px 5px #8a2be2;
     transition: .5s;
 }
+
+header {
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100000000000;
+}
+
+header img {
+    max-width: 200px;
+}
+
+header a+a {
+    margin-left: 2vw;
+}
+
+header a {
+    color: #fff;
+    font-size: 14px
+}
+
+header a span {
+    font-size: 18px;
+    position: relative;
+}
+
+header a span::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: var(--primary_normal);
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+}
+
+.ctaHeader{
+    width: fit-content;
+    padding: 15px;
+    font-size: 15px;
+}
+
+
+.bar {
+    width: 30px;
+    height: 20px;
+    z-index: 100000;
+    display: none;
+}
+
+.bar div {
+    width: 100%;
+    height: 3px;
+    border-radius: 10px;
+    background: #fff;
+    transition: .3s;
+}
+
+.bar div {
+    margin-bottom: 5px;
+}
+
+.activeBars .top {
+    transform: rotate(-45deg) translate(-11px, 11px);
+}
+
+.activeBars .middle {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.activeBars .bottom {
+    transform: rotate(45deg);
+}
+
+.activeNav {
+    transform: translateX(0);
+}
+
+
+@media (max-width: 800px) {
+    .bar{
+        display: block;
+    }
+
+    nav {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgb(24, 24, 24);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5vh;
+        transform: translateX(-100%);
+        transition: .3s;
+    }
+
+
+    header a {
+        font-size: 16px
+    }
+
+    header a span {
+        font-size: 20px;
+    }
+}
+
+
 
 
 .headline {
@@ -139,7 +258,7 @@ p {
     min-height: 350px;
     height: fit-content;
     background-color: #20202082;
-    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+    background-image: linear-gradient(163deg, var(--primary_normal) 0%, #3700ff 100%);
     border-radius: 20px;
     transition: all .3s;
 }
@@ -184,6 +303,11 @@ p {
     text-align: center;
 }
 
+.planos .cardsSection .card p{
+    font-size: 15px;
+    text-align: center;
+}
+
 
 .planos .cardsSection .card div {
     width: 100%;
@@ -207,6 +331,10 @@ p {
     gap: 15px;
     justify-content: flex-start;
     align-items: center;
+}
+
+.planos .cardsSection .card .qualities p{
+    text-align: left;
 }
 
 
