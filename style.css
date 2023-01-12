@@ -171,7 +171,7 @@ header a span::before {
 }
 
 .headline h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: var(--white_normal);
 }
 
@@ -363,6 +363,54 @@ header a span::before {
 .btnWhats img {
     max-width: 100%;
 }
+
+
+
+
+
+/*--------------------------contactSection-----------------------------*/
+
+
+.contactSection{
+    width: 100vw;
+    padding: var(--box-padding);
+}
+
+.contactCard{
+    width: 100%;
+    min-height: 30vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #bc0db7;
+    border-radius: 20px;
+}
+
+.left, .right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.left{
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*--------------------------FAQ-----------------------------*/
