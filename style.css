@@ -62,7 +62,7 @@ header {
     z-index: 100000000000;
 }
 
-header img {
+header svg {
     max-width: 200px;
 }
 
