@@ -26,7 +26,7 @@ p {
     text-align: center;
     color: #fff;
     cursor: pointer;
-    background-color: blueviolet;
+    background-color: var(--secondary_normal);
     border-radius: 5px;
     transition: .5s;
     font-size: 24px;
@@ -35,9 +35,9 @@ p {
 
 .mainCta:hover {
     transform: scale(.98);
-    -webkit-box-shadow: 0px 0px 15px 5px #8a2be2;
-    -moz-box-shadow: 0px 0px 15px 5px #8a2be2;
-    box-shadow: 0px 0px 15px 5px #8a2be2;
+    -webkit-box-shadow: 0px 0px 15px 5px var(--secondary_normal);
+    -moz-box-shadow: 0px 0px 15px 5px var(--secondary_normal);
+    box-shadow: 0px 0px 15px 5px var(--secondary_normal);
     transition: .5s;
 }
 
@@ -175,7 +175,7 @@ header a span::before {
 }
 
 .headline h1 span {
-    color: rgb(130, 87, 230);
+    color: var(--secondary_normal);
 }
 
 .headline p {
@@ -380,7 +380,7 @@ header a span::before {
     min-height: 30vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: #bc0db7;
+    background-color: var(--secondary_normal);
     border-radius: 20px;
 }
 
