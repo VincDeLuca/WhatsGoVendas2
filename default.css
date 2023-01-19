@@ -26,7 +26,7 @@
 
   /*--------------- Box Variables ---------------*/
 
-  --box-padding: 13vh 8%;
+  --box-padding: 150px 8%;
 
   /*--------------- Titles Variables ---------------*/
 
@@ -34,7 +34,7 @@
   --title-fontSize: clamp(36px, 4.4vw, 52px);
   --title-letterSpacing: 2px;
   --subtitle: #0f53a3;
-  --subtitle-fontSize: clamp(26px, 4vw, 46px);
+  --subtitle-fontSize: 18px;
 
 
   /*--------------- Paragraphs Variables ---------------*/
