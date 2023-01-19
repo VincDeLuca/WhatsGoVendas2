@@ -34,6 +34,7 @@
   --title-fontSize: clamp(36px, 4.4vw, 52px);
   --title-letterSpacing: 2px;
   --subtitle: #0f53a3;
+  --subtitle-fontSize: clamp(26px, 4vw, 46px);
 
 
   /*--------------- Paragraphs Variables ---------------*/
